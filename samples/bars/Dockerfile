@@ -1,4 +1,5 @@
-ARG  FROMIMAGE=cp.icr.io/cp/appc/ace:12.0.4.0-r1
+#ARG  FROMIMAGE=cp.icr.io/cp/appc/ace:12.0.4.0-r1
+ARG  FROMIMAGE=vccai.azurecr.io/aceimage:12.0.6.0-r1
 FROM ${FROMIMAGE}
 
 USER root
